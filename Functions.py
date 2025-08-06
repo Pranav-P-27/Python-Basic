@@ -24,3 +24,11 @@ print(an)
 srt,inti=random()
 print(srt,inti)
 
+
+def getnewitem():
+    a = "apple"
+    b = "banana"
+    c = a+b
+    return c
+
+print(getnewitem())
